@@ -1,0 +1,113 @@
+/* Get rid of native browser styles on p */
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-block-start:0px;
+  margin-block-end:0px;
+}
+
+/* set up container and grid */
+.main-container{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding-left: 10%;
+  padding-right: 10%;
+  height:100vh;
+}
+
+.buttons-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(4,1fr);
+  grid-gap: 50px 75px;
+}
+
+/* element styling */
+.question-div{
+  display: flex;
+  justify-content: center;
+}
+
+.question{
+  font-size: 65px;
+  font-weight: 600;
+  text-align: center;
+  margin:100px 0px 0px 0px;
+}
+
+.description{
+  font-size: 45px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin:60px 0px 80px 0px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #fff;
+  color:#a2a8b0;
+  border-radius: 20px;
+  font-size: 35px;
+  border: 1.5px solid #d3d3d3;
+  font-weight: 600;
+  text-align: center;
+  height:160px;
+}
+
+.selected-button{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #4351A4;
+  color:#fff;
+  border-radius: 20px;
+  font-size: 35px;
+  text-align: center;
+  height:160px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.text-div{
+  justify-self: center;
+  align-self: center;
+}
+
+.button-text{
+  letter-spacing: -0.3px;
+}
+
+/* footer styles */
+.footer{
+  position: absolute;
+  bottom: 0;
+  width:80%;
+  margin-bottom: 80px;
+}
+
+.footer-content{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.back-div{
+  font-size: 35px;
+  color:#a2a8b0;
+}
+
+.done-div{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 35px;
+  font-weight: 600;
+  color: #616db2;
+}
+
+.dots{
+  display: flex;
+  flex-direction: row;
+  margin:auto;
+}
