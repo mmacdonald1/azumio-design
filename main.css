@@ -82,8 +82,11 @@ p{
 
 /* footer styles */
 .footer{
-  position: absolute;
-  bottom: 0;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  padding-left: 10%;
+  padding-right: 10%;
   width:80%;
   margin-bottom: 40px;
 }
